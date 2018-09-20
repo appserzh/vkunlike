@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PermissionChooseController">
+   <children>
+      <Label layoutX="100.0" layoutY="70.0" prefHeight="17.0" prefWidth="100.0" text="Что анлайкать?" />
+      <CheckBox fx:id="photos" layoutX="100.0" layoutY="100.0" mnemonicParsing="false" selected="true" text="Фото" />
+      <CheckBox fx:id="video" layoutX="100.0" layoutY="135.0" mnemonicParsing="false" selected="true" text="Видео" />
+      <CheckBox fx:id="posts" layoutX="100.0" layoutY="170.0" mnemonicParsing="false" selected="true" text="Посты" />
+      <CheckBox fx:id="wall" layoutX="100.0" layoutY="200.0" mnemonicParsing="false" selected="true" text="Удалить комменты" />
+      <Button layoutX="100.0" layoutY="245.0" mnemonicParsing="false" onAction="#handleOkButton" text="Ok" />
+   </children>
+</AnchorPane>
